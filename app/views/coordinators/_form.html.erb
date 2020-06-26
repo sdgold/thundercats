@@ -17,7 +17,7 @@
     <%= form.text_field :name %>
   </div>
 
-  <%= form.association :workers, collection: @subordinates, as: :check_boxes %>
+  <%= form.association :subordinates, collection: @subordinates, as: :check_boxes %>
 
   <div class="actions">
     <%= form.submit %>

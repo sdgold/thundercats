@@ -18,8 +18,8 @@ class CoordinatorsController < ApplicationController
   # GET /coordinators/new
   def new
     @coordinator = Coordinator.new
-    @coordinator.workers.build
-    @workers = Worker.all.sample(20).sort
+    @coordinator.subordinates.build
+    # @workers = Worker.all.sample(20).sort
     @subordinates = Worker.all.sample(20).sort
   end
 
@@ -30,17 +30,13 @@ class CoordinatorsController < ApplicationController
   # POST /coordinators
   # POST /coordinators.json
   def create
-    # binding.pry
     @coordinator = Coordinator.new(coordinator_params)
-
-    # binding.pry
-
+    
     respond_to do |format|
       if @coordinator.save
         format.html { redirect_to @coordinator, notice: 'Coordinator was successfully created.' }
         format.json { render :show, status: :created, location: @coordinator }
       else
-        binding.pry
         format.html { render :new }
         format.json { render json: @coordinator.errors, status: :unprocessable_entity }
       end
@@ -82,5 +78,6 @@ class CoordinatorsController < ApplicationController
       # params.require(:coordinator).permit(:name, :coordinator_worker_ids)
       params.require(:coordinator).permit!
       # params.require(:post).permit(:title, comments_attributes: [:body])
+      # params.require(:coordinator).permit(:name, workers_attributes: [:name])
     end
 end

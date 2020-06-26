@@ -8,8 +8,6 @@ class UsersController < ApplicationController
   def create
     @user = User.new(users_params)
 
-    # binding.pry
-
     if @user.save
       flash[:success] = "Account registered!"
       redirect_to root_path
