@@ -5,4 +5,8 @@ Rails.application.routes.draw do
 
   resources :users
   resources :user_sessions
+
+  resources :books
+  resources :posts
+  resources :coordinators
 end

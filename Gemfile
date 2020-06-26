@@ -41,6 +41,9 @@ gem 'mysql2', '0.5.3'
 gem 'authlogic', '5.2.0'
 # gem "scrypt", "3.0.7"
 gem 'pry-rails', '0.3.9'
+gem 'bcrypt-ruby', '~> 3.1', '>= 3.1.5'
+gem 'faker', '2.13'
+gem 'simple_form', '5.0.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

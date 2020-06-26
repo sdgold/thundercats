@@ -1,4 +1,6 @@
 class UserSession < Authlogic::Session::Base
+  authenticate_with User
+  
   after_persisting :my_custom_logging
 
   private
