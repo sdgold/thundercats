@@ -31,7 +31,7 @@ class CoordinatorsController < ApplicationController
   # POST /coordinators.json
   def create
     @coordinator = Coordinator.new(coordinator_params)
-    
+
     respond_to do |format|
       if @coordinator.save
         format.html { redirect_to @coordinator, notice: 'Coordinator was successfully created.' }
