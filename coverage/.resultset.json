@@ -1,0 +1,198 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/books_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/coordinators_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/home_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/posts_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/user_sessions_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/users_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/models/book.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/models/comment.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/models/coordinator.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/models/coordinator_worker.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/models/post.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/models/user_session.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/models/user.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/models/worker.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null
+        ]
+      }
+    },
+    "timestamp": 1593646496
+  }
+}
