@@ -15,5 +15,11 @@ module Thundercats
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+
+    # specify test framework
+    config.generators do |g|
+      g.test_framework :rspec
+      g.factory_bot dir: 'spec/factories'
+    end
   end
 end
