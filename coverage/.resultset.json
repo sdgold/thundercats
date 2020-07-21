@@ -1,48 +1,6 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/application_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/books_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/coordinators_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/home_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/posts_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/user_sessions_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/goldbonifacio/Apps/practice/thundercats/app/helpers/users_helper.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
       "/Users/goldbonifacio/Apps/practice/thundercats/app/models/book.rb": {
         "lines": [
           1,
@@ -123,6 +81,10 @@
       },
       "/Users/goldbonifacio/Apps/practice/thundercats/app/models/user.rb": {
         "lines": [
+          1,
+          null,
+          1,
+          1,
           null,
           null,
           null,
@@ -130,26 +92,7 @@
           null,
           null,
           null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
+          1,
           null,
           null,
           null,
@@ -172,7 +115,22 @@
           null,
           null,
           1,
+          null,
           1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
           null,
           null,
           null,
@@ -191,8 +149,14 @@
           1,
           null
         ]
+      },
+      "/Users/goldbonifacio/Apps/practice/thundercats/app/models/building.rb": {
+        "lines": [
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1593646496
+    "timestamp": 1594585150
   }
 }

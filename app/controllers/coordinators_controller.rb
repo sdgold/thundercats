@@ -1,5 +1,3 @@
-require 'pry'
-
 class CoordinatorsController < ApplicationController
   before_action :set_coordinator, only: [:show, :edit, :update, :destroy]
 

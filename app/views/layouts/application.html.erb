@@ -10,6 +10,14 @@
   </head>
 
   <body>
+    <p>
+      <% if current_user %>
+        <%= current_user.email + "is logged in" %>
+        <%= link_to "Logout", logout_path, method: :delete %>
+      <% else %>
+        You are not logged in
+      <% end %>
+    </p>
     <%= yield %>
   </body>
 </html>
